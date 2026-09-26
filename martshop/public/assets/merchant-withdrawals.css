@@ -1,0 +1,22 @@
+main{max-width:1080px}
+.withdrawals-page .page-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.withdrawals-page .page-head .btn{display:inline-flex;padding:8px 12px;border:1px solid #173e73;border-radius:8px;text-decoration:none}
+.withdrawals-page .panel{background:#fff;border:1px solid #e7e7e7;border-radius:12px;padding:15px;margin:14px 0}
+.balances{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.balances .panel{display:grid;gap:5px}
+.forms-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form-grid{display:grid;gap:10px}
+.form-grid label{display:grid;gap:4px;font-weight:700}
+.form-grid input,.form-grid select,.method input{border:1px solid #a7b4c5;border-radius:8px;padding:9px}
+.notice{padding:12px;border-radius:8px;margin:12px 0}
+.success{background:#e9f8ee}
+.error{background:#fff0f0;color:#9f1d1d}
+.warning{background:#fff8dc}
+.method-list{display:grid;gap:10px}
+.method{display:flex;align-items:center;gap:12px;justify-content:space-between;border-bottom:1px solid #eee;padding:8px}
+.method form{display:flex;gap:5px}
+.table-wrap{overflow:auto}
+.withdrawals-page table{width:100%;border-collapse:collapse}
+.withdrawals-page th,.withdrawals-page td{text-align:right;padding:10px;border-bottom:1px solid #eee;white-space:nowrap}
+@media(max-width:850px){.forms-grid,.balances{grid-template-columns:1fr 1fr}.method{align-items:flex-start;flex-direction:column}}
+@media(max-width:520px){.forms-grid,.balances{grid-template-columns:1fr}.withdrawals-page .page-head{align-items:flex-start;flex-direction:column}.method form{align-items:stretch;flex-direction:column;width:100%}}

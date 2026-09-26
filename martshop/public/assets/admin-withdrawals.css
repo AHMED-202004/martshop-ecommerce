@@ -1,0 +1,20 @@
+main{max-width:1200px}
+.admin-withdrawals .page-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.admin-withdrawals .page-head .btn{display:inline-flex;padding:8px 12px;border:1px solid #173e73;border-radius:8px;text-decoration:none}
+.admin-withdrawals .panel{background:#fff;border:1px solid #e7e7e7;border-radius:12px;padding:15px;margin:14px 0}
+.policy-form{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.policy-form h2,.policy-form .check,.policy-form .reauth,.policy-form button{grid-column:1/-1}
+.policy-form label,.pay-form label,.decision-form label{display:grid;gap:4px;font-weight:700}
+.policy-form input,.pay-form input,.filters select,.decision-form input,.decision-form textarea{border:1px solid #a7b4c5;border-radius:8px;padding:9px}
+.policy-form .check{display:flex;gap:8px}
+.review-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.review-card{border:1px solid #eee;border-radius:10px;padding:12px;overflow-wrap:anywhere}
+.decision-form{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.decision-form textarea,.decision-form label{grid-column:1/-1}
+.card-head{display:flex;justify-content:space-between;gap:12px}
+.pay-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;align-items:end}
+.pay-form button{grid-column:1/-1}
+.notice{padding:12px;border-radius:8px;margin:12px 0}
+.success{background:#e9f8ee}
+.error{background:#fff0f0;color:#9f1d1d}
+@media(max-width:800px){.policy-form,.review-grid,.pay-form{grid-template-columns:1fr}.policy-form>*{grid-column:1!important}.admin-withdrawals .page-head,.card-head{align-items:flex-start;flex-direction:column}}

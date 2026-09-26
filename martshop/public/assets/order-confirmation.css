@@ -1,0 +1,5 @@
+.order-confirmation{max-width:800px;margin:24px auto;background:#fff;border:1px solid #eee;border-radius:12px;padding:24px;text-align:center}
+.order-confirmation-icon{font-size:64px;color:#198754}
+.order-confirmation h2{margin:8px 0 16px}
+.order-confirmation-actions{margin-top:16px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.order-confirmation-actions .btn{min-width:220px}

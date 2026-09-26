@@ -1,0 +1,29 @@
+.contact-inbox{max-width:1100px;margin:0 auto}
+.inbox-head{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.inbox-list{display:grid;gap:14px}
+.inbox-message{background:#fff;border:1px solid #dce2ea;border-radius:12px;padding:16px}
+.inbox-message header{display:flex;justify-content:space-between;gap:16px}
+.inbox-message h2{font-size:1.1rem;margin:0 0 4px}
+.inbox-message header span{color:#667085;font-size:.85rem}
+.message-open{display:inline-block;margin-top:14px}
+.empty{background:#fff;border:1px solid #dce2ea;border-radius:12px;padding:20px}
+.contact-message-detail{max-width:900px;margin:0 auto}
+.contact-message-detail header,.contact-message-detail dl,.contact-message-detail section{background:#fff;border:1px solid #dce2ea;border-radius:12px;padding:16px;margin-top:14px}
+.contact-message-detail h1{margin:0}
+.contact-message-detail header p{color:#667085;margin-bottom:0}
+.contact-message-detail dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.contact-message-detail dt{color:#667085;font-size:.85rem}
+.contact-message-detail dd{margin:4px 0 0;overflow-wrap:anywhere}
+.contact-message-detail section p{white-space:pre-wrap;overflow-wrap:anywhere}
+.support-success{background:#e9f8ee;padding:10px;border-radius:8px}
+.support-error{background:#fff0f0;color:#8f1d1d;padding:10px;border-radius:8px}
+.support-workflow-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.support-workflow form{min-width:0}
+.support-workflow textarea{min-height:120px}
+.support-check{display:flex;align-items:center;gap:8px}
+.support-check input{width:auto}
+.support-reply{border-top:1px solid #e7ebf0;padding:12px 0}
+.support-reply header{display:flex;justify-content:space-between;gap:12px;padding:0;margin:0;border:0}
+.support-reply header span{color:#667085;font-size:.85rem}
+@media(max-width:650px){.inbox-head,.inbox-message header{align-items:flex-start;flex-direction:column}.contact-message-detail dl{grid-template-columns:1fr}}
+@media(max-width:650px){.support-workflow-grid{grid-template-columns:1fr}.support-reply header{align-items:flex-start;flex-direction:column}}

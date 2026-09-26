@@ -1,0 +1,19 @@
+.brand-page{padding:18px 0}
+.brand-breadcrumbs{margin-bottom:10px;color:#777;font-size:14px}
+.brand-title{font-weight:800;margin:8px 0 14px}
+.brand-page .product-card{background:#fff;border:1px solid var(--border,#eee);border-radius:12px;overflow:hidden}
+.brand-page .img-wrap{position:relative;background:#fff}
+.brand-page .img-link{display:block}
+.brand-page .img-link img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+.brand-page .qv-btn{position:absolute;left:50%;transform:translateX(-50%);bottom:12px;padding:8px 12px;border-radius:20px;border:1px solid #eee;background:#fff;font-weight:700;box-shadow:0 6px 16px rgba(0,0,0,.08);cursor:pointer;z-index:3;opacity:0;transition:.22s}
+.brand-page .product-card .img-wrap:hover .qv-btn{opacity:1}
+.brand-page .p-body{padding:10px}
+.brand-page .price{display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
+.brand-page .price-old{text-decoration:line-through;color:#999}
+.brand-page .p-name{display:block;color:#333;margin-bottom:8px}
+.brand-page .chips{display:flex;flex-wrap:wrap;gap:6px}
+.brand-page .chips-spaced{margin-bottom:4px}
+.brand-page .chip{border:1px solid #eee;padding:2px 8px;border-radius:6px;font-size:12px;background:#f9f9f9}
+.brand-empty{grid-column:1/-1;padding:24px;background:#fff;border:1px dashed #eee;border-radius:8px;text-align:center}
+.brand-page .pager{margin-top:16px}
+@media (hover:none){.brand-page .qv-btn{opacity:1}}

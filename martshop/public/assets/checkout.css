@@ -1,0 +1,15 @@
+.steps-guest{margin:16px 0}
+.step-box{background:#fff;border:1px solid #eee;border-radius:12px;padding:12px}
+.step-box-spaced{margin-bottom:10px}
+.address-summary{background:#fff;border:1px solid #eee;border-radius:12px;padding:16px;margin:16px 0}
+.checkout-section-heading{margin:0 0 10px}
+.checkout-action{margin-top:12px}
+.payment-form{margin:16px 0}
+.payment-title{margin-bottom:10px}
+.pay-grid{display:flex;gap:16px;flex-wrap:wrap}
+.pay-card{flex:1;min-width:260px;cursor:pointer}
+.pay-card .box{border:1px solid #e0e0e0;border-radius:12px;padding:16px;text-align:center}
+.pay-card-icon{font-size:36px}
+.payment-submit{margin-top:16px}
+.payment-submit .btn{min-width:180px}
+.pay-card.is-active .box{border:2px solid #2aa7ff;box-shadow:0 0 0 4px rgba(42,167,255,.12)}

@@ -1,0 +1,30 @@
+.deals-page{padding:8px 0 18px}
+.deals-breadcrumb{margin-bottom:10px;color:#777;font-size:14px}
+.deals-layout{display:grid;grid-template-columns:320px 1fr;gap:18px}
+.filters-panel{background:#fff;border:1px solid var(--border);border-radius:10px;padding:12px}
+.filters-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.filters-head-spacer{display:flex;gap:6px;align-items:center;font-size:13px}
+.filter-box{border-top:1px dashed #eee;padding-top:10px;margin-top:10px}
+.filter-title{font-weight:800;margin-bottom:8px}
+.filter-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:6px 10px}
+.filter-item{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:14px;padding:6px 8px;border:1px solid #f2f2f2;border-radius:8px;background:#fafafa}
+.filter-item input{margin:0}
+.filter-actions{margin-top:12px}
+.filter-reset{margin-inline-start:6px}
+.results-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;color:#666}
+.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.product-card{background:#fff;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.product-card .img-wrap{display:block;position:relative;background:#fff}
+.product-card img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+.product-card .flash{position:absolute;inset-block-end:10px;inset-inline-start:10px;background:#ffea00;border-radius:8px;padding:6px 10px;font-weight:800}
+.p-body{padding:10px}
+.price{display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
+.price-old{text-decoration:line-through;color:#999}
+.p-name{display:block;color:#333;margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-block;border:1px solid var(--border);padding:2px 8px;border-radius:6px;font-size:12px;background:#f9f9f9}
+.empty{padding:24px;background:#fff;border:1px dashed #eee;border-radius:8px;text-align:center}
+.pager{margin-top:16px}
+@media (max-width:1200px){.product-grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:992px){.deals-layout{grid-template-columns:1fr}}
+@media (max-width:768px){.product-grid{grid-template-columns:repeat(2,1fr)}}

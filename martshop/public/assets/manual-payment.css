@@ -1,0 +1,16 @@
+.payment-page{padding-inline:16px!important}
+.payment-page .page-head{display:flex;justify-content:space-between;gap:16px}
+.payment-page .panel{background:#fff;border:1px solid #e7e7e7;border-radius:12px;padding:18px;margin-top:16px}
+.payment-form{display:grid;gap:14px}
+.methods{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.method-card{display:grid;gap:5px;min-width:0;border:1px solid #ddd;border-radius:10px;padding:12px;cursor:pointer;overflow-wrap:anywhere}
+.method-card:has(input:checked){border:2px solid #ff6a00;background:#fff8f2}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form-grid label{display:grid;gap:5px;font-weight:700}
+.form-grid input{min-width:0;border:1px solid #ddd;border-radius:8px;padding:10px}
+.payment-form .btn{min-height:44px}
+.privacy{color:#666}
+.notice{padding:12px;border-radius:8px;margin:12px 0}
+.success{background:#e9f8ee}
+.error{background:#fff0f0;color:#9f1d1d}
+@media(max-width:700px){.payment-page .page-head{flex-direction:column}.methods,.form-grid{grid-template-columns:1fr}.payment-page .page-head .btn,.payment-form .btn{width:100%;text-align:center}}

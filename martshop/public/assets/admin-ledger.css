@@ -1,0 +1,14 @@
+main{max-width:1240px}
+.ledger-page .page-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.ledger-page .page-head>div{display:flex;gap:8px;flex-wrap:wrap}
+.ledger-page .btn{display:inline-flex;align-items:center;justify-content:center;padding:8px 12px;border:1px solid #173e73;border-radius:8px;text-decoration:none}
+.ledger-page .panel{background:#fff;border:1px solid #dce2ea;border-radius:12px;padding:14px;margin:14px 0}
+.filters{display:flex;gap:10px;align-items:end;flex-wrap:wrap}
+.filters select{min-width:180px;border:1px solid #a7b4c5;border-radius:8px;padding:9px}
+.balances{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.balance-card{display:grid;gap:6px;padding:12px;border:1px solid #dce2ea;border-radius:10px}
+.table-wrap{overflow:auto}
+.ledger-page table{width:100%;border-collapse:collapse}
+.ledger-page th,.ledger-page td{text-align:right;padding:10px;border-bottom:1px solid #e7e7e7;white-space:nowrap}
+@media(max-width:900px){.balances{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.ledger-page .page-head{align-items:flex-start;flex-direction:column}.filters,.filters select,.filters button{width:100%}.balances{grid-template-columns:1fr}}

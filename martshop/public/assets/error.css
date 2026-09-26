@@ -1,0 +1,10 @@
+*{box-sizing:border-box}
+body.error-page{margin:0;min-height:100vh;display:grid;place-items:center;padding:20px;background:#f6f7f9;color:#18212f;font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+.error-page .card{width:min(100%,560px);padding:32px;background:#fff;border:1px solid #dce2ea;border-radius:16px;text-align:center;box-shadow:0 10px 30px rgba(24,33,47,.07)}
+.error-page .code{margin:0;color:#173e73;font-size:3rem;font-weight:700}
+.error-page--warning .code{color:#9a3412}
+.error-page .message{margin:4px 0 22px}
+.error-page .actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.error-page a{display:inline-block;padding:9px 16px;border:1px solid #173e73;border-radius:8px;color:#173e73;text-decoration:none}
+.error-page a.primary{background:#173e73;color:#fff}
+.error-page a:focus{outline:3px solid #75a9e6;outline-offset:2px}

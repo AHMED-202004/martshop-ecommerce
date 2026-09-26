@@ -1,0 +1,14 @@
+.methods-admin{max-width:1100px;margin:0 auto}
+.methods-admin .page-head{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.methods-admin .page-head p{margin:0}
+.methods-admin .page-head .btn{white-space:nowrap}
+.methods-admin .panel{background:#fff;border:1px solid #dce2ea;border-radius:12px;padding:16px;margin:14px 0}
+.method-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.method-form{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.method-form h2,.method-form textarea,.method-form .check,.method-form .reauth,.method-form button{grid-column:1/-1}
+.method-form label{display:grid;gap:4px;font-weight:700}
+.method-form input,.method-form textarea{border:1px solid #a7b4c5;border-radius:8px;padding:9px}
+.method-form .check{display:flex;align-items:center;gap:8px}
+.btn{display:inline-block;padding:9px 12px;border:1px solid #173e73;border-radius:8px;text-decoration:none}
+.btn-primary{background:#173e73;color:#fff}
+@media(max-width:800px){.method-list,.method-form{grid-template-columns:1fr}.methods-admin .page-head{align-items:flex-start;flex-direction:column}}
